@@ -1,7 +1,10 @@
 package com.moham.digssquared.ui
 
 import androidx.hilt.lifecycle.ViewModelInject
-import androidx.lifecycle.*
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.moham.digssquared.data.entities.Values
 import com.moham.digssquared.data.repository.Repository
 import com.moham.digssquared.utils.Resource
